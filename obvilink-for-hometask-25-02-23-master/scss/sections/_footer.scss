@@ -1,0 +1,125 @@
+.footer {
+  background: #EAF5F9;
+  text-align: center;
+  width: 520px;
+  margin: 0 auto;
+}
+.footer__nav{
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 520px) {
+  .footer {
+    padding-top: 40px;
+    height: 330px;
+  }
+
+
+  .footer__text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    text-decoration: none;
+    color: #131313;
+    padding-bottom: 15px;
+  }
+  .footer__logo{
+    padding-left: 39%;
+    padding-bottom: 79px;
+  }
+  .footer__info{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #CBDFE6;
+  }
+}
+@media screen and (min-width: 767px){
+  .footer__logo{
+    padding-left: 42%;
+  }
+}
+@media screen and (min-width: 900px){
+  .footer__logo{
+position: absolute;
+    padding-left: 10px;
+  }
+  .footer__info{
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #CBDFE6;
+    margin: 0;
+    padding-left: 149px;
+  }
+  .footer__text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #131313;
+  }
+  .footer__nav{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 260px;
+  }
+  .footer {
+     background: #EAF5F9;
+     width: 100%;
+     margin: 0 auto;
+     height: 130px;
+   }
+}
+@media screen and (min-width: 1700px){
+  .footer__logo{
+    position: absolute;
+    padding-left: 350px;
+  }
+  .footer__info{
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #CBDFE6;
+    margin: 0;
+    padding-left: 480px;
+  }
+  .footer__text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #131313;
+  }
+  .footer__nav{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 660px;
+  }
+  .footer {
+    background: #EAF5F9;
+    width: 100%;
+    margin: 0 auto;
+    height: 130px;
+  }
+}

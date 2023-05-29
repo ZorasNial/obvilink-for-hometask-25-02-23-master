@@ -1,0 +1,38 @@
+@import 'normalize',
+'vars',
+'global',
+'common/button',
+'header',
+'common/nav',
+'sections/section-with-phone',
+'sections/footer'
+;
+@media screen and (min-width: 520px) {
+  .img-logo{
+    width: 96px;
+    height: 15.26px;
+  }
+  .img{
+    display: none;
+  }
+  }
+@media screen and (min-width: 900px){
+  .img-logo{
+    width: 210.25px;
+    height: 25px;
+    padding-left: 40px;
+  }
+  .img{
+    display: block;
+    padding-left: 60px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .img-logo{
+    width: 500px;
+    height: 25px;
+    padding-left: 60px;
+  }
+}
+
